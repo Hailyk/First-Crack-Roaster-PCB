@@ -4721,6 +4721,12 @@
 		(uuid "0fa525ee-9cec-4224-b8d3-5ce4bbf6a0e3")
 	)
 	(junction
+		(at 105.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110e1d4c-ae87-4b6b-854d-034df5e67b15")
+	)
+	(junction
 		(at 107.95 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4833,6 +4839,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "899ec22b-30af-45b0-bb8e-c9aeb455675e")
+	)
+	(junction
+		(at 107.95 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "909c5345-ee84-4e27-9813-1e403cb0a5ed")
 	)
 	(junction
 		(at 55.88 114.3)
@@ -5027,16 +5039,16 @@
 		(uuid "78ccfb52-994d-4671-911a-382a8c7f0063")
 	)
 	(no_connect
-		(at 102.87 46.99)
-		(uuid "842273a5-1304-4fe3-8b59-3b83168c84a3")
-	)
-	(no_connect
 		(at 102.87 49.53)
 		(uuid "8a2a6cd1-e1f2-4e81-bdc4-1088ed091be1")
 	)
 	(no_connect
 		(at 102.87 31.75)
 		(uuid "9435fdd2-b7e0-45dd-abe5-1307b0283d33")
+	)
+	(no_connect
+		(at 218.44 57.15)
+		(uuid "a1968686-cec7-495a-8691-8537d38f8400")
 	)
 	(no_connect
 		(at 241.3 15.24)
@@ -5101,10 +5113,6 @@
 	(no_connect
 		(at 236.22 67.31)
 		(uuid "f0e58684-f985-4c3b-b031-658873751464")
-	)
-	(no_connect
-		(at 104.14 142.24)
-		(uuid "f278b13f-7b61-4a8f-875b-33a517748ceb")
 	)
 	(no_connect
 		(at 102.87 67.31)
@@ -5207,6 +5215,16 @@
 			(type default)
 		)
 		(uuid "119c6936-98f4-4599-bf2d-9d6186ef92ee")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129ba622-af73-472c-828b-cd9c26f47aaa")
 	)
 	(wire
 		(pts
@@ -5990,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 142.24) (xy 107.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f77e004-5f54-4798-8801-8ac3116cbc3c")
+	)
+	(wire
+		(pts
 			(xy 147.32 144.78) (xy 147.32 143.51)
 		)
 		(stroke
@@ -6440,6 +6468,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 142.24) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a636c95d-d71f-4d73-b068-6fa565065330")
+	)
+	(wire
+		(pts
 			(xy 53.34 21.59) (xy 53.34 22.86)
 		)
 		(stroke
@@ -6627,16 +6665,6 @@
 			(type default)
 		)
 		(uuid "bef57324-88f5-4c5a-bb91-63aa1820aa7f")
-	)
-	(wire
-		(pts
-			(xy 198.12 57.15) (xy 218.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5411a38-eab5-471d-94eb-e0cc880cd9aa")
 	)
 	(wire
 		(pts
@@ -6900,6 +6928,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 46.99) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2dc081-5b08-4cd1-a4d3-6aa001192b0a")
+	)
+	(wire
+		(pts
 			(xy 43.18 76.2) (xy 45.72 76.2)
 		)
 		(stroke
@@ -7107,16 +7145,6 @@
 			(justify left bottom)
 		)
 		(uuid "35ee4d50-5e90-48cd-9749-91d2207be38a")
-	)
-	(label "KeyPad_INT"
-		(at 198.12 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40a70e40-f600-4c59-9098-9333074fdfbd")
 	)
 	(label "SDA5V"
 		(at 43.18 151.13 0)
@@ -9911,7 +9939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-1010_1x10_P1.25mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
