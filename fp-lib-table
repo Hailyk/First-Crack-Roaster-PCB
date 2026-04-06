@@ -1,0 +1,11 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MCP9600") (type "KiCad") (uri "${KIPRJMOD}/MCP9600_E_MX") (options "") (descr ""))
+	(lib (name "XIAO_SERIES") (type "KiCad") (uri "${KIPRJMOD}/XIAO_Series/XIAO_Series.pretty") (options "") (descr ""))
+	(lib (name "Qwic") (type "KiCad") (uri "${KIPRJMOD}/PRT-14417") (options "") (descr ""))
+	(lib (name "DRV8871") (type "KiCad") (uri "${KIPRJMOD}/DRV8871DDAR") (options "") (descr ""))
+	(lib (name "10POS Display Connector") (type "KiCad") (uri "${KIPRJMOD}/10POSConnector") (options "") (descr ""))
+	(lib (name "SM04B") (type "KiCad") (uri "${KIPRJMOD}/SM04B-SRSS-TB_LF__SN_") (options "") (descr ""))
+	(lib (name "TB006") (type "KiCad") (uri "${KIPRJMOD}/TB006-508-02BE") (options "") (descr ""))
+	(lib (name "R_78E5_0_1_0") (type "KiCad") (uri "${KIPRJMOD}/R_78E5_0_1_0") (options "") (descr ""))
+)
